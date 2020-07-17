@@ -16,7 +16,7 @@ export default function Header() {
         <Link href="/TimothyLanziResume.pdf">
           <Button color="inherit">Resume</Button>
         </Link>
-        <Button color="inherit">About</Button>
+        {/* <Button color="inherit">About</Button> */}
       </Toolbar>
     </AppBar>
   )
