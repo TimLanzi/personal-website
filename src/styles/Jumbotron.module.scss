@@ -1,0 +1,20 @@
+.jumbotron {
+  position: static;
+  left: 0;
+  right: 0;
+  height: 400px;
+  background-image: url("/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 !important;
+}
+
+.title {
+  padding-top: 5em;
+  text-align: center;
+  color: #efefef;
+}
+
+.subtitle {
+  font-weight: 300 !important;
+}
