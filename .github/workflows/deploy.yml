@@ -35,4 +35,6 @@ jobs:
       run: npm run export
 
     - name: Deploy
-      publish_dir: ./out
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        publish_dir: ./out
